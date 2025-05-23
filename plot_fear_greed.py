@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-# Set the style
+
 plt.style.use('seaborn')
 sns.set_palette("husl")
 
 def plot_fear_greed_index():
     try:
-        # Check if file exists
+        
         if not os.path.exists('fear_greed_data.csv'):
             print("Error: fear_greed_data.csv not found!")
             return
