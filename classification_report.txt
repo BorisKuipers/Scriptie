@@ -1,0 +1,10 @@
+Classification Report (Best Model):
+              precision    recall  f1-score   support
+
+   Down (-1)       1.00      0.01      0.02        89
+ Neutral (0)       0.54      0.70      0.61       186
+     Up (+1)       0.37      0.47      0.42       118
+
+    accuracy                           0.48       393
+   macro avg       0.64      0.40      0.35       393
+weighted avg       0.60      0.48      0.42       393
