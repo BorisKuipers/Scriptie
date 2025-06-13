@@ -1,6 +1,0 @@
-gru_units: 64
-dense_units: 64
-l2_lambda: 0.001
-batch_size: 64
-epochs: 20
-best_val_acc: 0.46329113924050636
